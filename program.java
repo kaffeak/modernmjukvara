@@ -10,7 +10,7 @@ public class program{
 		getData();
 		boolean loop = true;
 		while(loop){
-			System.out.println("\n\nquiHur nöjd är du med din upplevelse?\nSkriv in en siffra:\n1 = inte nöjd\t2 = helt okej\t3 = nöjd\n");
+			System.out.println("\n\nHur nöjd är du med din upplevelse?\nSkriv in en siffra:\n1 = inte nöjd\t2 = helt okej\t3 = nöjd\n");
 			switch (in.nextLine()) {
 				case "1":
 					data[0] ++;
